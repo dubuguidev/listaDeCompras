@@ -23,18 +23,16 @@
           type="text"
           placeholder="Digite o item que deseja adicionar"
         />
-        <button class="button-item" id="adicionar-item" type="button">Salvar item</button>
+        <button class="button-item" id="adicionar-item" type="button" onclick="gerarDiaDaSemana()">Salvar item</button>
       </form>
 
       <div class="container-lista">
         <h2>Lista de compras</h2>
         <hr />
 
-        <ul id="lista-de-compras">
-          <p class="mensagem-lista-vazia">Não há nenhum item na lista no momento.</p>
-        </ul>
+        <ul id="lista-de-compras"></ul>
       </div>
-      <script defer src = "projetinhofelas.js"></script>
     </main>
+    <script type="module" src="index.js"></script>
   </body>
 </html>
